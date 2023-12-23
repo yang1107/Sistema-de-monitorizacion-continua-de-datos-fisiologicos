@@ -1,0 +1,23 @@
+truncate TABLE cuenta restart identity cascade;
+truncate TABLE elevacion_entrenamiento restart identity cascade;
+truncate TABLE distancia_entrenamiento restart identity cascade;
+truncate TABLE pasos_entrenamiento restart identity cascade;
+truncate TABLE calorias_entrenamiento restart identity cascade;
+truncate TABLE hr_entrenamiento restart identity cascade;
+truncate TABLE spo2_average_entrenamiento restart identity cascade;
+truncate TABLE suenio restart identity cascade;
+truncate TABLE datos_suenio restart identity cascade;
+truncate TABLE hr_suenio restart identity cascade;
+truncate TABLE ecg restart identity cascade;
+truncate TABLE senial_ecg restart identity cascade;
+truncate TABLE heart_rate restart identity cascade;
+truncate TABLE entrenamiento restart identity cascade;
+truncate TABLE distancia restart identity cascade;
+truncate TABLE spo2 restart identity cascade;
+truncate TABLE elevacion restart identity cascade;
+truncate TABLE pasos restart identity cascade;
+truncate TABLE calorias restart identity cascade;
+
+insert into cuenta (nombre_cuenta) values ('None');
+insert into usuario(apellido, nombre, nombre_cuenta) values ('None', 'None', 'None');
+insert into dispositivo(nombre_dispositivo,tipo,id_modelo,device_id,nombre_usuario) values ('None', 'None', 'None', 'None', 'None');
